@@ -1,0 +1,73 @@
+* {
+    margin: 0px;
+}
+.retro__container {
+    display: flex;
+}
+.retro__header {
+    background: #333744;
+    padding: 0.7rem;
+    color: white;
+}
+.retro__contents {
+    display: flex;
+    padding: 0.7rem 0.7rem 0.7rem 0;
+    flex: 1;
+}
+
+.retro__contents > div{
+    margin-left: 0.7rem;
+    width: 33%;
+}
+.retro__add-button, .retro__item-add-button, .retro__item-cancel-button {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    border: 0.5px solid lightgray;
+    height: 1.5rem;
+    font-size: 1.2rem;
+    cursor: pointer;
+}
+.add-item-control {
+    display: none;
+    flex-direction: column;
+}
+.retro__went-well__items > div {
+    background: #009688;
+}
+.retro__to-improve__items > div {
+    background:#e91e63;
+}
+.retro__action-items__items > div {
+    background: #3f51b5;
+}
+.retro__items > div {
+    margin-top: 0.5rem;
+    color: white;
+    font-size: 1rem;
+    line-height: 1.5rem;
+    padding: 0.5rem 0.5rem 0.5rem 0.5rem;
+    white-space: pre-line;
+}
+
+textarea {
+    line-height: 1.5rem;
+    font-size: 1.2rem;
+    resize: none;
+}
+.button-group {
+    display: flex;
+}
+
+.retro__sidebar {
+    display: flex;
+    flex-direction: column;
+    min-width: 200px;
+    background: #333744;
+    color: white;
+    height: 100vh;
+}
+
+.room-title {
+    padding: 0.7rem;
+}
